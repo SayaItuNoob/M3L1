@@ -37,7 +37,7 @@ def fact():
 def password_gen():
     
     return f'''
-    <h1{"Here is your password"}</h1>
+    <h1>Here is your password :</h1>
     <h2>{password}</h2>'''
     
 app.run(debug=True)
